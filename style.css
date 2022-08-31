@@ -68,7 +68,7 @@ body {
 .mole:hover{
   cursor: pointer;
 }
-#reset-btn{
+.button{
   background-color: darkolivegreen;
   color: white;
   border: solid 10px #000;
@@ -77,8 +77,10 @@ body {
   letter-spacing: 5px;
   padding: 10px;
   margin-bottom: 10px;
+  margin: 10px;
 }
-#reset-btn:hover{
+
+.button:hover{
   cursor: pointer;
   opacity: .9;
   letter-spacing: 8px;
