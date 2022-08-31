@@ -7,19 +7,31 @@
   <!-- The below link gives you access to Jquery -->
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
   <script src="index.js" defer></script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
 </head>
-<body> 
-  <h1 id="score">0</h1>
-  <div id="whack-a-mole">
-    <div class="hole"></div>
-    <div class="hole"></div>
-    <div class="hole"></div>
-    <div class="hole"></div>
-    <div class="hole"></div>
-    <div class="hole"></div>
-    <div class="hole"></div>
-    <div class="hole"></div>
-    <div class="hole"></div>
+<body>
+  <div id="game-menu">
+      <h1>Whack-a-mole</h1>
+      <h2>I need your help! These moles are ruining my garden!</h3>
+      <button id="play-btn">Play</button>
   </div>
+<div id="game-board">
+    <h1 id="title">Whack-a-mole</h1>
+    <h1 id="score">Start Whackin!</h1>
+    <div id="whack-a-mole">
+      <div class="hole"></div>
+      <div class="hole"></div>
+      <div class="hole"></div>
+      <div class="hole"></div>
+      <div class="hole"></div>
+      <div class="hole"></div>
+      <div class="hole"></div>
+      <div class="hole"></div>
+      <div class="hole"></div>
+    </div>
+    <button id="reset-btn">Reset Score</button>
+</div>    
 </body>
 </html>
