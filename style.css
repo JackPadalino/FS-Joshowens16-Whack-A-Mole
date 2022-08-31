@@ -25,18 +25,22 @@ body {
   font-weight: bolder;
   letter-spacing: 5px;
   border-radius: 10px;
+  opacity: .9;
 }
 #play-btn:hover{
   cursor: pointer;
+  letter-spacing: 10px;
+  opacity: 1;
 }
 #game-board{
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  width: 90vw;
+  width: 80vw;
   height: auto;
   border: 5px solid black;
+  border-radius: 30px;
   font-family: 'Bebas Neue', cursive;
   background-color: rgba(85, 107, 47, 0.49);
 }
@@ -72,6 +76,7 @@ body {
   font-size: 20px;
   letter-spacing: 5px;
   padding: 10px;
+  margin-bottom: 10px;
 }
 #reset-btn:hover{
   cursor: pointer;
